@@ -1,0 +1,349 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body,
+h1,
+h2,
+h3,
+h4{
+    font-family: "Raleway", Arial, Helvetica, sans-serif
+}
+/* ----------------------------------------------------- */
+.nav ul li{
+    display: inline-block;
+    padding: 20px 0px 0px 0px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px 20px;
+    font-size: 1.5rem;
+}
+.nav ul li a:hover{
+    background-color: gray;
+}
+.nav ul #logo a{
+    background-color: rgb(5, 88, 61);
+    color: #ffff;
+}
+.nav ul #logo a:hover{
+    color: black;
+    background-color: gray;
+}
+.nav ul #book {
+    background-color: rgba(212, 208, 208, 0.644);
+    float:right;
+    padding: 20px 0px;
+}
+.nav ul #book a:hover{
+    background-color: gray;
+}
+/* ************** End of navbar **************************** */
+.main{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url("../images/hotal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    padding: 100px 80px;
+}
+.main .table{
+    background-color: #ffff;
+    width: 50%;
+}
+.main .table h2{
+    background-color: rgb(5, 88, 61);
+    color: #ffff;
+    font-size: 2rem;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.main .table .divs{
+    width: 47%;
+    display: inline-block;
+    margin-left: 10px;
+}
+.main .table label,input{
+    padding: 10px;
+}
+.main .table label{
+    font-size: 1.5rem;
+}
+.main .table input{
+    width: 80%;
+    margin-top: -15px;
+}
+.main .table .btnSearch{
+    background-color: gray;
+    color: #ffff;
+    border: none;
+    margin: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.main .table .btnSearch:hover{
+    background-color: rgba(212, 208, 208, 0.644);
+    color: #000;
+}
+/* ******************************************************** */
+#Rooms{
+    padding: 30px 10px; 
+}
+#Rooms h2{
+    padding-bottom: 20px;
+}
+#Rooms p{
+    font-size: 1.3rem;
+    padding-bottom: 20px;
+}
+#Rooms .form{
+    display: flex;
+    padding-bottom: 10px;
+}
+#Rooms .form .text{
+    width: 30%;
+}
+#Rooms .form .text input{
+    width: 90%;
+}
+#Rooms .form input{
+    margin-top: 10px;
+    padding: 12px;
+}
+#Rooms .form .num{
+    width: 20%;
+}
+#Rooms .form .num input{
+    width: 80%;
+}
+#Rooms .form .num input[type="button"]{
+    background-color: #000;
+    color: #ffff;
+    width: 100%;
+}
+#Rooms .form .num input[type="button"]:hover{
+    background-color: gray;
+    color: #000;
+    cursor: pointer;
+}
+#Rooms .types{
+    display: flex;
+}
+#Rooms .types .typeRoom{
+    background-color: #ffff;
+    width: 35%;
+    margin: 15px;
+    justify-content: space-between;
+}
+#Rooms .types .typeRoom img,h3,h4,i{
+    padding-bottom: 25px;
+}
+#Rooms .types .typeRoom img{
+    width:100%;
+    height: 55%;
+}
+#Rooms .types .typeRoom h3{
+    color:gray;
+    font-size: 1.2rem;
+    padding-top: 5px;
+}
+#Rooms .types .typeRoom .inputBtn{
+    background-color: #000;
+    color: #ffff;
+    width: 100%;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#Rooms .types .typeRoom .inputBtn:hover{
+    background-color: rgb(139, 139, 139);
+    color: #000;
+    cursor: pointer;
+}
+/* ******************************************************************* */
+#About .infoos{
+    display: flex;
+}
+#About .info{
+    width: 35%;
+}
+#About .info h2{
+    padding-bottom: 5px;
+}
+#About .info p{
+    font-size: 20px;
+    color: rgb(43, 42, 42);
+}
+#About .info i{
+    font-size: 30px;
+}
+#About .infoImg{
+    width: 65%;
+}
+#About .infoImg img{
+    width: 100%;
+    opacity: 0.7;
+}
+#About .abouu{
+    display: flex;
+    width: 100%;
+}
+#About .abouu .about{
+    margin: 90px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+#About .abouu .about i{
+    color: rgb(5, 88, 61);
+    padding-right: 7px;
+    font-size: 25px;
+}
+/* ************************************************************************** */
+.offer {
+    background-color: rgb(5, 88, 61);
+    color: #ffff;
+    font-size: 15px;
+    padding: 35px 10px;
+}
+.offer p i{
+    background-color: rgb(29, 139, 103);
+    padding: 10px 15px;
+    margin-right: 5px;
+}
+/* **************************************************************************** */
+.hotel{
+    margin: 15px;
+}
+.hotel .imgHotel{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 2.5fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+}
+.hotel .imgHotel .imgdiv{
+    grid-row: 1/3;
+}
+.hotel .imgHotel div{
+    padding: 5px;
+    height: 49vh;
+}
+.hotel .imgHotel .imgdiv{
+    height: 100vh;
+}
+.hotel .imgHotel div img{
+    height: 100%;
+    width: 100%;
+}
+.hotel .imgHotel div .name{
+    position: absolute;
+    left: 30px;
+    color: #ffff;
+    font-size: 20px;
+}
+.hotel .imgHotel div .name1{
+    top: 3260px;
+}
+.hotel .imgHotel div .name2{
+    left: 750px;
+    top: 2925px;
+}
+.hotel .imgHotel div .name3{
+    top: 2925px;
+    left: 1050px;
+}
+.hotel .imgHotel div .name4{
+    left: 750px;
+    top: 3260px;
+}
+.hotel .imgHotel div .name5{
+    left: 1050px;
+    top: 3260px;
+}
+/* *************************************************************************** */
+.formOffer{
+    background-color: gray;
+    color: #ffff;
+    padding: 20px;
+}
+.formOffer:hover{
+    background-color: #000;
+}
+.formOffer h1,.p,.email{
+    padding-bottom: 20px;
+}
+.formOffer .email input[type="email"]{
+    width: 95%;
+    padding: 20px;
+}
+.formOffer .btnsub{
+    padding: 10px 20px;
+    background-color: rgb(5, 88, 61);
+    border: none;
+    border-radius: 5px;
+    color: #ffff;
+}
+.formOffer .btnsub:hover{
+    /* background-color: rgb(60, 150, 120); */
+    cursor: pointer;
+}
+/* ********************************************************************************* */
+#Contact{
+    padding: 20px;
+}
+#Contact h2{
+    padding-bottom: 20px;
+}
+#Contact .teP{
+    padding-bottom: 30px;
+}
+#Contact i{
+    color: rgb(5, 88, 61);
+    padding-right: 20px;
+}
+#Contact .contForm{
+    margin-bottom: 10px;
+}
+#Contact .contForm input{
+    width: 95%;
+}
+#Contact .contForm button{
+    padding: 15px 25px;
+    background-color: #000;
+    color: #ffff;
+    border: none;
+}
+#Contact .contForm button:hover{
+    background-color: gray;
+    color: #000;
+    cursor: pointer;
+}
+/* ************************************************************* */
+#footer{
+    color: #ffff;
+    background-color: #000;
+    text-align: center;
+    height: 40vh;
+}
+#footer p{
+    padding: 50px;
+    font-size: 25px;
+}
+#footer i{
+    font-size: 30px;
+}
+#footer i:hover{
+    color: gray;
+}
+#footer h3 span{
+    border-bottom: solid #ffff 2px;
+    padding: 10px;
+}
+#footer h3 span:hover{
+    color: rgb(5, 88, 61);
+    border-bottom: solid rgb(5, 88, 61) 2px;
+
+}

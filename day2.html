@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html and css template</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="day2.css">
+</head>
+
+<body>
+    <section class="nav">
+        <ul>
+            <li id="logo"><a href="#"><i class="fa-solid fa-bed"></i> Logo</a></li>
+            <li><a href="#Rooms">Rooms</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li id="book"><a href="#footer">Book Now</a></li>
+        </ul>
+    </section>
+    <!-- ****************End of navbar********************** -->
+    <section class="main">
+        <div class="table">
+            <h2><i class="fa-solid fa-bed"></i> Hotel Name</h2>
+            <!-- Check in -->
+            <div class="divs">
+                <label for="check_in"><i class="fa-regular fa-calendar"></i> Check In</label>
+                <input type="text" name="DataCheckIn" id="check_in" placeholder="DD MM YYYY">
+            </div>
+            <!-- check out -->
+            <div class="divs">
+                <label for="check_out"><i class="fa-regular fa-calendar"></i> Check Out</label>
+                <input type="text" name="DataCheckOut" id="check_out" placeholder="DD MM YYYY">
+            </div>
+            <!-- adult -->
+            <div class="divs">
+                <label for="adult"><i class="fa-solid fa-person"></i> Adult</label>
+                <input type="number" name="adult" id="adult" value="1" min="1" max="6">
+            </div>
+            <!-- kids -->
+            <div class="divs">
+                <label for="kids"><i class="fa-solid fa-child-reaching"></i> Kids</label>
+                <input type="number" name="kids" id="kids" value="0" min="0" max="6">
+            </div>
+            <!-- search -->
+            <button class="btnSearch"><i class="fa-solid fa-magnifying-glass"></i> Search availability</button>
+        </div>
+    </section>
+    <!-- End of main -->
+    <section id="Rooms">
+        <h2>Rooms</h2>
+        <p>Make yourself at home is our slogan. we offer the best beds
+            in the industry. Sleep well and rest well.
+        </p>
+        <div class="form">
+            <!-- Check in -->
+            <div class="text">
+                <label for="check_in"><i class="fa-regular fa-calendar"></i> Check In</label>
+                <input type="text" name="DataCheckIn" id="check_in" placeholder="DD MM YYYY">
+            </div>
+            <!-- check out -->
+            <div class="text">
+                <label for="check_out"><i class="fa-regular fa-calendar"></i> Check Out</label>
+                <input type="text" name="DataCheckOut" id="check_out" placeholder="DD MM YYYY">
+            </div>
+            <!-- adult -->
+            <div class="num">
+                <label for="adult"><i class="fa-solid fa-person"></i> Adult</label>
+                <input type="number" name="adult" id="adult" value="1" min="1" max="6">
+            </div>
+            <!-- kids -->
+            <div class="num">
+                <label for="kids"><i class="fa-solid fa-child-reaching"></i> Kids</label>
+                <input type="number" name="kids" id="kids" value="0" min="0" max="6">
+            </div>
+            <!-- search -->
+            <div class="num">
+                <label for="search"><i class="fa-solid fa-magnifying-glass"></i> Search</label>
+                <input type="button" name="search" id="search" value="Search">
+            </div>
+        </div>
+        <div class="types">
+            <div class="typeRoom">
+                <img src="images/singleRoom.avif" alt="Single room">
+                <h1>Single Room</h1>
+                <h3>Form $99</h3>
+                <h4>Single bed</h4>
+                <h4>15m <sup>2</sup></h4>
+                <i class="fa-solid fa-bath"></i>
+                <i class="fa-solid fa-phone"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <input type="button" value="Choose Room" class="inputBtn">
+            </div>
+            <div class="typeRoom">
+                <img src="images/Double Room.jpg" alt="Double room">
+                <h1>Double Room</h1>
+                <h3>Form $149</h3>
+                <h4>Queen-size bed</h4>
+                <h4>25m<sup>2</sup></h4>
+                <i class="fa-solid fa-bath"></i>
+                <i class="fa-solid fa-phone"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-solid fa-tv"></i>
+                <input type="button" value="Choose Room" class="inputBtn">
+
+            </div>
+            <div class="typeRoom">
+                <img src="images/Deluxe Room.jpg" alt="Double room">
+                <h1>Deluxe Room</h1>
+                <h3>Form $199</h3>
+                <h4>King-size bed</h4>
+                <h4>40m<sup>2</sup></h4>
+                <i class="fa-solid fa-bath"></i>
+                <i class="fa-solid fa-phone"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-solid fa-tv"></i>
+                <i class="fa-solid fa-martini-glass-citrus"></i>
+                <i class="fa-solid fa-utensils"></i>
+                <input type="button" value="Choose Room" class="inputBtn">
+
+            </div>
+        </div>
+    </section>
+    <!-- End of rooms -->
+    <section id="About">
+        <div class="infoos">
+            <div class="info">
+                <h2>About</h2>
+                <p>
+                    Our hotel is one of a kind.
+                    It is truely amazing. Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi
+                    ut aliquip ex ea commodo consequat. Duis aute irure
+                    dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident,
+                    sunt in culpa qui officia deserunt mollit anim id
+                    est laborum consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam.
+                </p>
+                <p>We accept:
+                    <i class="fa-brands fa-cc-visa"></i>
+                    <i class="fa-brands fa-cc-mastercard"></i>
+                    <i class="fa-brands fa-cc-paypal"></i>
+                </p>
+            </div>
+            <div class="infoImg">
+                <img src="images/about.jpg" alt="about">
+            </div>
+        </div>
+        <div class="abouu">
+            <div class="about">
+                <p><i class="fa-solid fa-location-dot"></i>423 Some adr, Chicago, US</p>
+            </div>
+            <div class="about">
+                <p><i class="fa-solid fa-phone"></i>Phone: +00 151515</p>
+            </div>
+            <div class="about">
+                <p><i class="fa-solid fa-envelope"></i>Email: mail@mail.com</p>
+            </div>
+        </div>
+    </section>
+    <!-- End of about -->
+    <section class="offer">
+        <p><i class="fa-solid fa-info"></i> On demand, we can offer
+            playstation, babycall,
+            children care, dog equipment, etc.
+        </p>
+    </section>
+    <!-- end of offer -->
+    <section class="hotel">
+        <h2>Our Hotel</h2>
+        <p>You can find our hotels anywhere in the world:</p>
+        <div class="imgHotel">
+            <div class="imgdiv">
+                <div class="name1 name">Cinque Terre</div>
+                <img src="images/Cinque Terre.webp" alt="Cinque Terre">
+            </div>
+            <div>
+                <div class="name2 name">New York</div>
+                <img src="images/New York.jpg" alt="New York">
+            </div>
+            <div>
+                <div class="name3 name">Francisco</div>
+                <img src="images/Francisco.jpg" alt="Francisco">
+            </div>
+            <div>
+                <div class="name4 name">Pisa</div>
+                <img src="images/Pisa.jpg" alt="Pisa">
+            </div>
+            <div>
+                <div class="name5 name">Paris</div>
+                <img src="images/Paris.jpg" alt="Paris">
+            </div>
+        </div>
+    </section>
+    <!--End of some places  -->
+    <section class="formOffer">
+        <h1>Get the best offers first!</h1>
+        <p class="p">Join our newsletter</p>
+        <div class="email">
+            <label for="e-mail">E-mail</label><br>
+            <input type="email" name="e-mail" id="e-mail" placeholder="Your Email address">
+        </div>
+        <button class="btnsub" type="submit">Subscribe</button>
+    </section>
+    <!-- End of offerForm -->
+    <section id="Contact">
+        <h2>Contact</h2>
+        <p class="teP">If you have any qusetion ,do not hesitate to ask them.</p>
+        <p><i class="fa-solid fa-location-dot"></i>423 Some adr, Chicago, US</p>
+        <p><i class="fa-solid fa-phone"></i>Phone: +00 151515</p>
+        <p><i class="fa-solid fa-envelope"></i>Email: mail@mail.com</p>
+        <div class="contForm">
+            <input type="text" name="name" id="name" placeholder="Name">
+        </div>
+        <div class="contForm">
+            <input type="email" name="e-mail" id="e-mail" placeholder="E-mail">
+        </div>
+        <div class="contForm">
+            <input type="text" name="message" id="message" placeholder="Message">
+        </div>
+        <div class="contForm">
+            <button type="submit">SEND MESSAGE</button>
+        </div>
+    </section>
+    <!-- end of contact -->
+    <section id="footer">
+        <p>Find Us On</p>
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-square-snapchat snap"></i>
+        <i class="fa-brands fa-pinterest-p"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+        <h3>Powered by <span>AML GAMAL</span></h3>
+    </section>
+</body>
+
+</html>
